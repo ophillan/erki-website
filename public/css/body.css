@@ -1,0 +1,22 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 70px;
+}
+
+.paragraph-heading {
+    font-size: 24px;
+    font-family: Roboto, sans-serif;
+}
+
+.paragraph-text {
+    padding: 0;
+    font-size: 14px;
+    line-height: 20px;
+    font-style: normal;
+    text-align: justify;
+    font-family: Roboto, sans-serif;
+}

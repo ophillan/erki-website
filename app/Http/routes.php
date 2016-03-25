@@ -6,8 +6,7 @@ Route::group(['middleware' => ['web']], function () {
     Route::get('', 'Controller@index');
     Route::get('/', 'Controller@index');
     Route::get('/info', 'Controller@info');
-    Route::get('/vpone', 'Controller@vpone');
-    Route::get('/vpgel', 'Controller@vpgel');
+    Route::get('/viscoplus', 'Controller@viscoplus');
 
     /** Language routing */
     Route::get('lang/{lang}', 'LanguageController@switchLang');

@@ -1,67 +1,42 @@
 @media (max-width: 379px) {
+    #main-logo {
+        background-size: 150px 60px;
+        width: 150px;
+        height: 60px;
+    }
+
     #footer {
         height: 60px;
     }
 }
 
-
 @media (max-width: 1089px) {
 
-    .navbar-form {
-        padding-top: 20px;
-        margin-bottom: 0;
+    .navbar-nav {
+        padding-top: 15px;
+        margin: 0 auto -10px;
     }
 
-    .container {
-        margin-bottom: 0;
-    }
-
-    .navbar .navbar-nav {
-        display: inline-block;
-        float: none;
-        vertical-align: top;
-    }
-
-    .navbar .navbar-collapse {
-        text-align: center;
-    }
-
-    .navbar-brand {
-        padding: 0; /* firefox bug fix */
-    }
-
-    .navbar-brand > img {
-        height: 75%;
-        margin-top: 5px;
-        margin-left: 30px;
-        padding: 5px;
-        width: auto;
+    #main-logo {
+        background: url("/../img/logo_small.png") no-repeat;
+        background-size: 225px 75px;
+        width: 225px;
+        height: 75px;
     }
 }
 
 @media (min-width: 1090px) {
 
     .navbar-nav {
-        padding: 20px 10px 10px;
+        padding: 30px 30px 10px;
         margin: 0 auto -10px;
-        display: table;
-        table-layout: fixed;
-        float: none;
     }
 
-    .navbar-nav > li {
-        border-radius: 0;
-        margin-left: 10px;
-        margin-right: 1px;
-    }
-
-    .navbar-brand {
-        padding: 0;
-    }
-
-    .navbar-brand > img {
-        height: 100%;
-        margin-top: 20px;
+    #main-logo {
+        background: url("/../img/logo.png") no-repeat;
+        background-size: 300px 100px;
+        width: 300px;
+        height: 100px;
     }
 
 }
