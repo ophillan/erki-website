@@ -17,14 +17,9 @@ class Controller extends BaseController
         return view('info');
     }
 
-    public function vpone()
+    public function viscoplus()
     {
-        return view('vpone');
-    }
-
-    public function vpgel()
-    {
-        return view('vpgel');
+        return view('viscoplus');
     }
 
 }

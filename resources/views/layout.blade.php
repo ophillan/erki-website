@@ -46,11 +46,11 @@
                        aria-expanded="false">{{ strtoupper(trans('header.disease')) }}<span
                                 class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="#">{{ trans('header.whatis') }}</a></li>
-                        <li><a href="#">{{ trans('header.symptoms') }}</a></li>
-                        <li><a href="#">{{ trans('header.riskfactors') }}</a></li>
+                        <li><a href="/info">{{ trans('header.whatis') }}</a></li>
+                        <li><a href="/info">{{ trans('header.symptoms') }}</a></li>
+                        <li><a href="/info">{{ trans('header.riskfactors') }}</a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="#">{{ trans('header.treatment') }}</a></li>
+                        <li><a href="/info">{{ trans('header.treatment') }}</a></li>
                     </ul>
                 </li>
 
