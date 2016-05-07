@@ -2,7 +2,8 @@
 
 return [
     'whatisvp' => 'Mis on ViscoPlus?',
-    'whatistext1' => 'GO-ON© on steriilne mittepürogeenne naatrium-hüaluronaadi lahus.',
+    'whatistext1' => 'GO-ON© on steriilne mittepürogeenne naatrium-hüaluronaadi lahus. GO-ON© süstal sisaldab 2,5 ml 1%-list naatrium-hüaluronaadi lahust ning naatriumkloriidi, naatrium-monovesinikfosfaati, naatrium-divesinikfosfaati ja süstimiseks vajalikku vett.
+',
 
     'whatisnahy' => 'Mis on naatrium-hüaluronaat?',
     'whatisnahytext1' => 'Naatrium-hüaluronaat on looduslik, suure molekulmassiga polüsahhariid, mis koosneb naatriumglükuronaadi ja N-atsetüülglükosamiini tekitatud disahhariidide üksuste lineaarsest ahelast. Naatrium-hüaluronaat on inimorganismi kudedes laialt levinud ning selle kontsentratsioon on suur liigesevedelikus, kus nimetatud aine on peamiseks koostisosaks. Naatrium-hüaluronaadil on oluline osa omavahel külgnevate kudede füüsilise ja mehhaanilise vastasmõju reguleerimisel, toimides kudedevahelise määrdena; see toimib ka viskoelastse toena, mis määratleb kudede piirid.',

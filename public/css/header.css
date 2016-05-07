@@ -21,7 +21,7 @@
     padding-top: 8px;
 }
 
-li.nav {
+ul.nav {
     border-color: #4169E1 !important;
     border-width: 1px;
 }
@@ -31,7 +31,6 @@ ul.nav a:hover {
 }
 
 #main-logo {
-    background: url("/../img/logo_small.png") no-repeat;
     display: block;
     margin-left: 15px;
     background-size: 225px 75px;

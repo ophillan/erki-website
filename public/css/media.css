@@ -18,7 +18,7 @@
     }
 
     #main-logo {
-        background: url("/../img/logo_small.png") no-repeat;
+        background: url("/../img/logos/small_logo.png") no-repeat;
         background-size: 225px 75px;
         width: 225px;
         height: 75px;
@@ -33,7 +33,7 @@
     }
 
     #main-logo {
-        background: url("/../img/logo.png") no-repeat;
+        background: url("/../img/logos/main_logo.png") no-repeat;
         background-size: 300px 100px;
         width: 300px;
         height: 100px;
