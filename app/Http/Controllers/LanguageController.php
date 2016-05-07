@@ -16,11 +16,7 @@ class LanguageController extends Controller
         if (array_key_exists($lang, Config::get('languages'))) {
             Session::set('applocale', $lang);
         }
-        try {
-            return redirect()->back();
-        } catch (HttpException $httpException) {
-            return view('index');
-        }
+        return redirect()->back();
     }
 
 }

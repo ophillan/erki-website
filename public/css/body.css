@@ -7,16 +7,28 @@ body {
     margin-bottom: 70px;
 }
 
-.paragraph-heading {
-    font-size: 24px;
+* {
     font-family: Roboto, sans-serif;
 }
 
+.paragraph-heading {
+    color: royalblue;
+    font-size: 24px;
+}
+
 .paragraph-text {
-    padding: 0;
+    padding-top: 15px;
     font-size: 14px;
     line-height: 20px;
     font-style: normal;
     text-align: justify;
-    font-family: Roboto, sans-serif;
+}
+
+hr {
+    padding-bottom: 30px;
+    border-color: royalblue;
+}
+
+.paragraph-image {
+    padding-top: 15px;
 }

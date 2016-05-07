@@ -1,15 +1,22 @@
 <?php
 
 return [
-    'whatis' => 'Mis on osteoartriit?',
-    'whatistext1' => 'Osteoartriit on artriidi liik, mida põhjustab kõhre taandareng organismi ühes või mitmes liigeses. Kõhr toimib „löögileevendina“ liigestes asuvate luude vahel. Osteoartriidi teine nimi on degeneratiivne artriit. Artriite tuntakse üle 100 erineva liigi, millest osteoartriiti esineb kõige sagedamini.',
-    'whatistext2' => 'Osteoartriit tekib kõige sagedamini inimese vananemisel. Alla 45 aastastel esineb osteoartriit kõige sagedamini meestel ning üle 55-aastastel kõige sagedamini naistel. ',
-    'whatistext3' => 'Osteoartriit mõjutab kõige sagedamini käsi, jalgu, selga ja raskust kandvaid liigeseid, nagu põlved.
-                      Enamikel juhtudel on osteoartriidi põhjus teadmata ning neid juhtumeid nimetatakse primaarseks osteoartriidiks, kuid kui osteoartriidi põhjus on teada, nimetatakse seda sekundaarseks osteoartriidiks.',
+    'whatcauses' => 'Mis põhjustab osteoartriiti?',
+    'whatcausestext1' => 'Primaarne osteoartriit on peamiselt seotud vananemisega. Vananemisel kõhre veesisaldus suureneb ja kõhr hakkab taandarenema. Kaugele arenenud juhtudel kaob kõhr liigestes asuvate luude vahelt täielikult. Kulunud liigeste korduv kasutamine võib kõhre ärritada ja põletikku tekitada, põhjustades valu ja turset. Kõhre kadumise tagajärjel toimub liigestes asuvate luude vahel suurem hõõrdumine. See põhjustab valu ja liigeste liikuvuse vähenemist. Kõhre põletik võib soodustada uue luukoe kasvu, nagu liigeste ümber moodustuvad ogad.',
+    'whatcausestext2' => 'Sekundaarset osteoartriiti põhjustavad sellised seisundid nagu ülekaalulisus, korduv trauma või liigese lõikus, sünnipärased ebanormaalsed liigesed (kaasasündinud väärarengud), diabeet ja teised hormonaalsed häired.',
 
-    'symptomstitle' => 'Osteoartriidi sümptomid',
-    'symptomstext' => 'Osteoartriidi sümptomid arenevad aeglaselt ja ägenevad aja möödudes. Sümptomid on järgmised:',
-    
+    'symptoms' => 'Sümptomid',
+    '' => '',
+    '' => '',
+    '' => '',
 
 
+    'riskfactors' => 'Riskifaktorid',
+    '' => '',
+    '' => '',
+
+
+    'treatment' => 'Ravivõimalused',
+    '' => '',
+    '' => '',
 ];

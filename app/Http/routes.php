@@ -3,9 +3,9 @@
 Route::group(['middleware' => ['web']], function () {
 
     /** Page routing */
-    Route::get('/', 'Controller@index');
-    Route::get('/info', 'Controller@info');
-    Route::get('/viscoplus', 'Controller@viscoplus');
+    Route::get('', 'PageController@landing');
+    Route::get('info', 'PageController@info');
+    Route::get('viscoplus', 'PageController@viscoplus');
 
     /** Language routing */
     Route::get('lang/{lang}', 'LanguageController@switchLang');

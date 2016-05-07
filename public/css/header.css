@@ -21,8 +21,13 @@
     padding-top: 8px;
 }
 
+li.nav {
+    border-color: #4169E1 !important;
+    border-width: 1px;
+}
+
 ul.nav a:hover {
-    color: #880000 !important;
+    color: #4169E1 !important;
 }
 
 #main-logo {
