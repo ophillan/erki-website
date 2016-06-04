@@ -65,7 +65,7 @@ return [
     |
     */
 
-    'locale' => 'en',
+    'locale' => 'ee',
     'locales' => ['en' => 'English', 'ee' => 'Estonian', 'ru' => 'Russian'],
 
     /*
@@ -79,7 +79,7 @@ return [
     |
     */
 
-    'fallback_locale' => 'en',
+    'fallback_locale' => 'ee',
 
     /*
     |--------------------------------------------------------------------------
