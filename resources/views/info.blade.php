@@ -4,6 +4,7 @@
 
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
+
             <h2 class="paragraph-heading" id="whatis">{{ trans('info.whatcauses') }}</h2>
             <p class="paragraph-text">{{ trans('info.whatcausestext1') }}</p>
             <p class="paragraph-text">{{ trans('info.whatcausestext2') }}</p>
