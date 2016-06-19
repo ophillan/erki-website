@@ -20,4 +20,9 @@ class PageController extends Controller
     {
         return view('viscoplus');
     }
+
+    public function faq()
+    {
+        return view('faq');
+    }
 }

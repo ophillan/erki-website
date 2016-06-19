@@ -18,7 +18,7 @@
         <!-- Homepage -->
         <li><a href="/">{{ strtoupper(trans('header.homepage')) }}</a></li>
 
-        <!-- Osteoarthrosis -->
+        <!-- Osteoarthritis -->
         <li class="dropdown">
             <a href="/public/info" class="dropdown-toggle" data-toggle="dropdown" role="button"
                aria-haspopup="true"
@@ -35,28 +35,22 @@
 
         <!-- Viscoplus -->
         <li><a href="/public/viscoplus">VISCOPLUS</a></li>
+
+        <!-- FAQ -->
+        <li><a href="/public/faq">{{trans('header.faq')}}</a></li>
     </ul>
 
     <ul class="nav navbar-nav navbar-right">
-
-        <!-- Contact -->
-        <li><a href="/public/contact">{{ strtoupper(trans('header.contact')) }}</a></li>
-
         <!-- Languages -->
-        <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                <img src="/img/flags/{{ \App::getLocale() }}_flag.png">
-            </a>
-            <ul class="dropdown-menu">
-                @foreach (Config::get('languages') as $lang => $language)
-                    @if ($lang != App::getLocale())
-                        <li>
-                            <a href="/public/lang/{{ $lang }}"><img
-                                        src="/img/flags/{{ $lang }}_flag.png"> {{$language}}</a>
-                        </li>
-                    @endif
-                @endforeach
-            </ul>
-        </li>
+        @foreach (Config::get('languages') as $lang => $language)
+            @if ($lang != App::getLocale())
+                <li><a href="/public/lang/{{ $lang }}"><img src="/img/flags/{{ $lang }}_flag.png"> {{$language}}</a>
+                </li>
+            @else
+                <li><a href="/public/lang/{{ $lang }}"><img src="/img/flags/{{ $lang }}_flag.png"><span
+                                style="color: #4169E1; padding-left:5px;">{{$language}}</span> </a>
+                </li>
+            @endif
+        @endforeach
     </ul>
 </div>

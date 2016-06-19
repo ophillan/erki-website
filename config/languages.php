@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'en' => 'English',
-    'ee' => 'Estonian',
-    'ru' => 'Russian',
+    'en' => 'EN',
+    'ee' => 'EE',
+    'ru' => 'RU',
 ];

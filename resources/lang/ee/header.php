@@ -16,7 +16,7 @@ return [
 
     
     /** FAQ */
-    
+    'faq' => 'KKK',
     
     /** Contact */
     'contact' => 'Kontakt',

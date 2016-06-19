@@ -2,17 +2,16 @@
 
 return [
     'whatcauses' => 'Mis põhjustab osteoartriiti?',
-    'whatcausestext1' => 'Osteoartriit on kõige sagedamini esinev liigest kahjustav haigus. Osteoartriiti iseloomustab liigesekõhre degeneratsioon ehk hävinemine. Selle struktuuri destruktsiooni tõttu tekib luude omavaheline hõõrdumine, mis põhjustab valu, jäikust ning väheneb liigesliikuvus. OA ei kahjusta ainult kõhre, vaid haarab kogu liigest tervikuna. Haiguse puhul esinevad põletikulised episoodid.',
-    'whatcausestext2' => 'Haiguse algus on tavaliselt aeglane ning seetõttu märkamatu. Enamasti tekib valu liikumisel, millega kaasneb krigin, kuid rahuolekus valu kaob. Iseloomult on valu tuim ning tugevneb päeva teises pooles, hommikuti on tunne parem.  Haiguse progresseerumisel on valud püsivamad ning tekivad luulised vohandid.',
-    'whatcausestext3' => 'Episooditi võivad haigetes liigestes tekkida põletikunähud, mille tagajärjel toimub veel intensiivsem kõhre hävinemine. Sel puhul aga ei vähene valu  ka rahuolekus, tekib öine valu ning hommikuti esinev liigesjäikus tugevneb. Liigeses esineb turse, on katsudes valulik ning soe, liikuvus vähenenud. ',
-
+    'whatcausestext1' => 'Osteoartriit on kõige sagedamini esinev liigest kahjustav haigus. Osteoartriiti iseloomustab liigesekõhre degeneratsioon ehk hävinemine. Liigeskõhre destruktsiooni tõttu tekib luude omavaheline hõõrdumine, mis põhjustab valu, jäikust ning väheneb liigesliikuvus. Osteoartriit ei kahjusta ainult kõhre, vaid haarab kogu liigest tervikuna. Haiguse puhul esinevad põletikulised episoodid.',
+    'whatcausestext2' => 'Haiguse algus on tavaliselt aeglane ning seetõttu märkamatu. Enamasti tekib valu liikumisel, millega kaasneb krigin, kuid rahuolekus valu kaob. Iseloomult on valu tuim ning tugevneb päeva teises pooles, hommikuti on tunne parem.  Haiguse progresseerumisel on valud püsivamad.',
+    'whatcausestext3' => 'Episooditi võivad haigetes liigestes tekkida põletikunähud, mille tagajärjel toimub veel intensiivsem kõhre hävinemine. Sel puhul aga ei vähene valu  ka rahuolekus, tekib öine valu ning hommikuti esinev liigesjäikus tugevneb. Liiges on turses, katsudes valulik ning soe ning liikuvus on vähenenud.',
 
     'symptoms' => 'Sümptomid',
     'symptoms1' => 'Valu koormusel või liikumisel, mis väheneb puhkusega',
     'symptoms2' => 'Liikumisel naksumine, plõksumine, krigin',
     'symptoms3' => 'Punetus, turse',
     'symptoms4' => 'Hommikune liigesjäikus kuni 30 min',
-    'symptoms5' => 'Esinevad nn stardivalud',
+    'symptoms5' => 'Esinevad nn stardivalud (raskused liikuma hakkamisel)',
 
     'riskfactors' => 'Riskifaktorid',
     'riskfactor1' => 'Vanus (haigestumine on sagedasem vanematel inimestel)',
@@ -24,14 +23,22 @@ return [
     'riskfactor7' => 'Pärilikkus',
     'riskfactor8' => 'C- ja D-vitamiinivähesus',
 
-
     'treatment' => 'Ravivõimalused',
-    'treatmenttext' => 'Ravi eesmärgiks on valu ning põletiku vähendamine, liigesfunktsiooni taastamine või säilitamine, operatsiooni vältimine või edasilükkamine.',
-    'treatmentoptions' => 'Raviks on erinevaid võimalusi.',
-    'treatmentoption1' => 'Operatsioon',
-    'treatmentoption1_text' => '- kallis, kuid ravib probleemi pikemaks ajaks.',
-    'treatmentoption2' => 'Sünoviaal- ehk liidesevedeliku süst',
-    'treatmentoption2_text' => '- taskukohane ning süsti mõju kestab kuus kuud, misjärel võib probleemide tekkimise korral uuesti arsti poole pöörduda.',
-    'treatmentoption3' => 'Füsioteraapia',
-    'treatmentoption3_text' => '- taskukohane ning aitab sümptomeid leevendada.',
+    'treatmenttext' => 'Osteoartriidi ravi eesmärgiks on kõrvaldada riskitegurid, kontrollida valu, peatada liigeskõhre kulumine, parandada või säilitada liigesliikuvus, vältida vaegurlust ning parandada elukvaliteeti.',
+    'treatmentoptions' => 'Ravis kasutatakse nii kirurgiat, taastusravi kui ka erinevaid ravimeid.',
+    'treatmentoption1' => 'Taastusravi',
+    'treatmentoption1_text' => '- Oluline on sellega pihta hakata võimalikult vara. Osteoartroosi tõttu langeb lihasjõud ning liigesliikuvus. Valu ning turse tõttu püütakse end vähem liigutada, kuid see põhjustab liigeskapsli tihenemist ning tekitab kontraktuure. Seega taastusravi eesmärgiks on liigesliikuvuse parandamine, lihasjõu arendamine, haiguse progressiooni pidurdamine, elukvaliteedi parandamine ning töövõime säilitamine.',
+    'treatmentoption2' => 'Ravimid',
+    'treatmentoption2_text' => '- Eesmärgiks on haiguse sümptomite leevendamine ning liigeskõhre ainevahtuse mõjutamine.',
+    'treatmentoption2_option1' => 'Paratsetamool - vaigistab valu, alanab palavikku, on nõrga põletikuvastase toimega, kasutatakse nõrga või mõõduka valu korral.',
+    'treatmentoption2_option2' => 'Mittesteroidsed põletikvastased ained (NSAID) - vähendavad valu, turset ning liigesjäikust.',
+    'treatmentoption2_option3' => 'Toopiline ravi - ravimite määrimine kahjustunud kohale, on valu vaigistava toimega.',
+    'treatmentoption2_option4' => 'Liigesesisene kortikosteroidravi - kui eelnevalt nimetatud ravimite toime pole küllaldane, siis kasutatakse valu ning põletiku leevendamiseks kortikosteroidide liigesesisest manustamist süstega.',
+    'treatmentoption2_option5' => 'Liigesvedeliku asendusravi- ravimiks on hüaluroonhappe polümeerid. Nimetatud aine on liigeskõhre loomulik koostisosa. Biosünteesi teel saadud hüaluroonhape stimuleerib sünoviaalrakke tootma liigesvedelikku. Seega parandab see liigese funktsiooni ning on lisaks valuvaigistava toimega. Enamasti kasutatakse põlveliigese artroosi korral.',
+    'treatmentoption3' => 'Kirurgiline ravi',
+    'treatmentoption3_text' => '- Operatsiooniks kasutatakse erinevaid meetodeid. Valik sõltub kahjustuse astmest, haige vanusest, üldseisundist, elukutsest, sümptomitest ning teiste liigeste seisundist.',
+    'treatmentoption3_option1' => 'Artroplastika ehk liigese endoproteesimine.',
+    'treatmentoption3_option2' => 'Artroskoopiline debraidment e puhastus - degeneratiivsete osiste eemaldamine artroskoopiliselt.',
+    'treatmentoption3_option3' => 'Osteotoomia - protseduur, mille käigus luud pikendatakse või lühendatakse.',
+    'treatmentoption3_option4' => 'Artrodees - liigese jäigastamine, mille tagajärjel kaob valu, kuid sellega kaasneb liigese funktsiooni langus ning võib tekkida kõnnakuhäire.',
 ];
