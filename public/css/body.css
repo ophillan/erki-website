@@ -35,6 +35,10 @@ body {
     padding-top: 15px;
 }
 
+.row {
+    padding: 20px 30px;
+}
+
 .row:nth-child(odd) {
     background: grey; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(grey, white); /* For Safari 5.1 to 6.0 */
