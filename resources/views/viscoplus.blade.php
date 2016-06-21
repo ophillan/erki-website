@@ -3,19 +3,19 @@
 @section('content')
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
-            <h2 class="paragraph-heading" id="whatis">{{ trans('viscoplus.whatisvp') }}</h2>
-            <p class="paragraph-text">{{ trans('viscoplus.whatistext1') }}</p>
-            <p class="paragraph-text">{{ trans('viscoplus.whatistext2') }}</p>
+            <h2 id="whatis">{{ trans('viscoplus.whatisvp') }}</h2>
+            <p>{{ trans('viscoplus.whatistext1') }}</p>
+            <p>{{ trans('viscoplus.whatistext2') }}</p>
 
             <hr>
 
-            <div style="margin-top: -45px; margin-bottom: 40px;">
+            <div>
                 <table class="table">
                     <thead>
                     <tr>
                         <th></th>
-                        <th><h2 class="paragraph-heading text-center">ViscoPlus One</h2></th>
-                        <th><h2 class="paragraph-heading text-center">ViscoPlus Gel</h2></th>
+                        <th><h2 class="text-center">ViscoPlus One</h2></th>
+                        <th><h2 class="text-center">ViscoPlus Gel</h2></th>
                     </tr>
                     </thead>
                     <tbody>
@@ -45,21 +45,20 @@
 
             <hr>
 
-            <h2 class="paragraph-heading" id="symptoms">{{ trans('viscoplus.whatisnahy') }}</h2>
-            <p class="paragraph-text">{{ trans('viscoplus.whatisnahytext') }}</p>
+            <h2 id="symptoms">{{ trans('viscoplus.whatisnahy') }}</h2>
+            <p>{{ trans('viscoplus.whatisnahytext') }}</p>
 
             <hr>
 
-            <h2 class="paragraph-heading" id="symptoms">{{ trans('viscoplus.howworks') }}</h2>
-            <p class="paragraph-text">{{ trans('viscoplus.howworkstext') }}</p>
+            <h2 id="symptoms">{{ trans('viscoplus.howworks') }}</h2>
+            <p>{{ trans('viscoplus.howworkstext') }}</p>
 
             <hr>
 
-            <h2 class="paragraph-heading" id="symptoms">{{ trans('viscoplus.procedure') }}</h2>
-            <p class="paragraph-text">{{ trans('viscoplus.proceduretext') }}</p>
+            <h2 id="symptoms">{{ trans('viscoplus.procedure') }}</h2>
+            <p>{{ trans('viscoplus.proceduretext') }}</p>
 
         </div>
     </div>
-
 
 @stop

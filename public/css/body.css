@@ -7,50 +7,43 @@ body {
     margin-bottom: 50px;
 }
 
-#main-logo {
-    background: url("/../img/logos/viscoplus_logo.png") no-repeat;
-    display: block;
-    margin-left: 15px;
-    background-size: 200px 30px;
-    width: 200px;
-    height: 30px;
-}
-
 * {
     font-family: Roboto, sans-serif;
 }
 
-.paragraph-heading {
-    color: ghostwhite;
-    font-size: 24px;
-}
-
-.paragraph-text {
+body > p, li {
     padding-top: 15px;
     font-size: 14px;
     text-align: justify;
 }
 
-.paragraph-image {
-    padding-top: 15px;
+#contentrow {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-.row {
-    padding: 20px 30px;
-}
-
-.row:nth-child(odd) {
+#contentrow:nth-child(odd) {
     background: grey; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(grey, white); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(grey, white); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(grey, white); /* For Firefox 3.6 to 15 */
+    background: -webkit-linear-gradient(darkgray, lightgray); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(darkgray, lightgray); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(darkgray, lightgray); /* For Firefox 3.6 to 15 */
     background: linear-gradient(darkgray, lightgray); /* Standard syntax */
 }
 
-.row:nth-child(even) {
+#contentrow:nth-child(even) {
     background: grey; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(grey, white); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(grey, white); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(grey, white); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(whitesmoke, lightgray); /* Standard syntax */
+    background: -webkit-linear-gradient(white, lightgray); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(white, lightgray); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(white, lightgray); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(white, lightgray); /* Standard syntax */
+}
+
+.row:nth-child(odd) h2 {
+    color: white;
+    font-size: 24px;
+}
+
+.row:nth-child(even) h2 {
+    color: royalblue;
+    font-size: 24px;
 }

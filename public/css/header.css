@@ -1,4 +1,4 @@
-
+/* Footer styling and position */
 #footer {
     position: absolute;
     bottom: 0;
@@ -6,44 +6,44 @@
     font-size: 12px;
 }
 
-/* Override default for footer */
+/* Override default for footer and navbar border */
 .navbar {
     margin-bottom: 0;
+    border: 0;
 }
 
+/* Navbar element color */
 .navbar-inverse .navbar-nav > li > a {
     color: white;
 }
 
+/* Current locale highlight */
 .active {
-    background-color: darkgrey;
+    background-color: darkgray;
 }
 
-ul.nav.navbar-nav {
-    padding-left: 30px;
+.navbar-inverse .navbar-toggle {
+    border-color: whitesmoke;
+    color: whitesmoke;
 }
 
-/*
-.panel.panel-primary {
-    padding-left: 0;
-    padding-right: 0;
+.navbar-inverse .navbar-nav li a {
+    text-align: center;
+    border-bottom: 2px whitesmoke;
 }
 
-.panel-heading h3 {
-    padding-top: 8px;
+ul.nav.navbar-nav li{
+    padding-top: 0;
 }
 
-ul.nav {
-    border-color: royalblue !important;
-    border-width: 1px;
-}
-
-ul.nav a:hover {
-    color: royalblue !important;
-}
-
+/* Logo styling */
 #main-logo {
-    background: url("/../img/logos/small_logo.png") no-repeat;
+    background: url("/../img/logos/viscoplus_logo.png") no-repeat;
     display: block;
+    margin-top: 10px;
     margin-left: 15px;
+    background-size: 200px 30px;
+    width: 200px;
+    height: 30px;
 }
+
