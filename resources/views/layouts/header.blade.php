@@ -8,12 +8,12 @@
         <span class="icon-bar"></span>
     </button>
 
-    <div class="img-responsive" id="main-logo"></div>
+    <a class="img-responsive" id="main-logo" style="margin-top: 10px; margin-left: 100px;" href="/"></a>
 </div>
 
 <!-- Collect the nav links, forms, and other content for toggling -->
-<div class="collapse navbar-collapse" id="navHeaderCollapse">
-    <ul class="nav navbar-nav">
+<div class="collapse navbar-collapse navbar-inverse" id="navHeaderCollapse">
+    <ul class="nav navbar-nav" style="display: inline-block;">
 
         <!-- Homepage -->
         <li><a href="/">{{ strtoupper(trans('header.homepage')) }}</a></li>
@@ -28,7 +28,6 @@
                 <li><a href="/public/info#whatis">{{ trans('header.whatis') }}</a></li>
                 <li><a href="/public/info#symptoms">{{ trans('header.symptoms') }}</a></li>
                 <li><a href="/public/info#riskfactors">{{ trans('header.riskfactors') }}</a></li>
-                <li role="separator" class="divider"></li>
                 <li><a href="/public/info#treatment">{{ trans('header.treatment') }}</a></li>
             </ul>
         </li>
@@ -44,11 +43,10 @@
         <!-- Languages -->
         @foreach (Config::get('languages') as $lang => $language)
             @if ($lang != App::getLocale())
-                <li><a href="/public/lang/{{ $lang }}"><img src="/img/flags/{{ $lang }}_flag.png"> {{$language}}</a>
+                <li><a href="/public/lang/{{ $lang }}"><img src="/img/flags/{{ $lang }}_flag.png"></a>
                 </li>
             @else
-                <li><a href="/public/lang/{{ $lang }}"><img src="/img/flags/{{ $lang }}_flag.png"><span
-                                style="color: #4169E1; padding-left:5px;">{{$language}}</span> </a>
+                <li><a class="active" href="/public/lang/{{ $lang }}"><img src="/img/flags/{{ $lang }}_flag.png"></a>
                 </li>
             @endif
         @endforeach

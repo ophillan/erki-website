@@ -43,11 +43,7 @@
                 <li class="paragraph-text">{{ trans('faq.precautions4') }}</li>
             </ul>
 
-            <hr>
-
         </div>
     </div>
-
-    <hr>
 
 @stop

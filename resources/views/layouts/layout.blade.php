@@ -20,17 +20,16 @@
 </head>
 
 <body>
-
+<nav class="navbar navbar-default">
+    @include('layouts.header')
+</nav>
 <div id="wrap">
-    <nav class="navbar navbar-default">
-        @include('layouts.header')
-    </nav>
-    <div class="container">
+    <div class="container-fluid">
         @yield('content')
     </div>
 </div>
 
-<nav class="navbar navbar-default" id="footer">
+<nav class="navbar navbar-inverse" id="footer">
     @include('layouts.footer')
 </nav>
 

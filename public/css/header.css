@@ -3,7 +3,6 @@
     position: absolute;
     bottom: 0;
     width: 100%;
-    font-family: Roboto, sans-serif;
     font-size: 12px;
 }
 
@@ -12,6 +11,19 @@
     margin-bottom: 0;
 }
 
+.navbar-inverse .navbar-nav > li > a {
+    color: white;
+}
+
+.active {
+    background-color: darkgrey;
+}
+
+ul.nav.navbar-nav {
+    padding-left: 30px;
+}
+
+/*
 .panel.panel-primary {
     padding-left: 0;
     padding-right: 0;
@@ -22,18 +34,16 @@
 }
 
 ul.nav {
-    border-color: #4169E1 !important;
+    border-color: royalblue !important;
     border-width: 1px;
 }
 
 ul.nav a:hover {
-    color: #4169E1 !important;
+    color: royalblue !important;
 }
 
 #main-logo {
+    background: url("/../img/logos/small_logo.png") no-repeat;
     display: block;
     margin-left: 15px;
-    background-size: 225px 75px;
-    width: 225px;
-    height: 75px;
 }

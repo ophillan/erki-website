@@ -4,10 +4,16 @@ html {
 }
 
 body {
-    background-image: url(/img/backgrounds/main_background.png);
-    background-size: cover;
-    background-repeat:no-repeat;
-    margin-bottom: 70px;
+    margin-bottom: 50px;
+}
+
+#main-logo {
+    background: url("/../img/logos/viscoplus_logo.png") no-repeat;
+    display: block;
+    margin-left: 15px;
+    background-size: 200px 30px;
+    width: 200px;
+    height: 30px;
 }
 
 * {
@@ -15,23 +21,32 @@ body {
 }
 
 .paragraph-heading {
-    color: royalblue;
+    color: ghostwhite;
     font-size: 24px;
 }
 
 .paragraph-text {
     padding-top: 15px;
     font-size: 14px;
-    line-height: 20px;
-    font-style: normal;
     text-align: justify;
-}
-
-hr {
-    padding-bottom: 30px;
-    border-color: royalblue;
 }
 
 .paragraph-image {
     padding-top: 15px;
+}
+
+.row:nth-child(odd) {
+    background: grey; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(grey, white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(grey, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(grey, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(darkgray, lightgray); /* Standard syntax */
+}
+
+.row:nth-child(even) {
+    background: grey; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(grey, white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(grey, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(grey, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(whitesmoke, lightgray); /* Standard syntax */
 }
