@@ -4,7 +4,7 @@
 
     <!-- First block -->
     <div class="row" id="contentrow">
-        <div class="col-md-8 col-md-offset-2 col-xs-12">
+        <div class="col-md-8 col-md-offset-2">
             <div class="col-md-6">
                 <h2>{{ trans('landing.whatis') }}</h2>
                 <p>{{ trans('landing.whatistext') }}</p>
@@ -19,7 +19,7 @@
 
     <!-- Second block -->
     <div class="row" id="contentrow">
-        <div class="col-md-8 col-md-offset-2 col-xs-12">
+        <div class="col-md-8 col-md-offset-2">
             <div class="col-md-6"><img src="/img/landing/viscoplus.png" alt="ViscoPlus" class="img-responsive"></div>
             <div class="col-md-6">
                 <h2>{{ trans('landing.whatweoffer') }}</h2>
