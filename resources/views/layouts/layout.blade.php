@@ -21,7 +21,7 @@
 </head>
 
 <body>
-<nav class="navbar navbar-inverse row">
+<nav class="navbar navbar-inverse">
     @include('layouts.header')
 </nav>
 <div id="wrap">
