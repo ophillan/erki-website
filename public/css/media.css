@@ -2,12 +2,4 @@
     .active {
         background-color: #222;
     }
-
-    #main-logo {
-        margin-left: 15px;
-    }
-}
-
-@media (min-width: 1090px) {
-
 }

@@ -1,7 +1,8 @@
 <!-- Brand and toggle get grouped for better mobile display -->
 <div class="col-sm-12 col-md-10 col-md-offset-1">
     <div class="navbar-header">
-        <span class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navHeaderCollapse">MENÜÜ</span>
+        <span class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target="#navHeaderCollapse" aria-expanded="false">MENÜÜ</span>
 
         <a class="img-responsive" id="main-logo" href="/"></a>
     </div>

@@ -10,9 +10,7 @@
 .navbar {
     margin-bottom: 0;
     border: 0;
-    height: 50px;
 }
-
 
 /* Navbar element color */
 .navbar-inverse .navbar-nav > li > a {
@@ -27,11 +25,16 @@
 
 .navbar-inverse .navbar-nav > li > a {
     text-align: center;
-    height: 50px;
 }
 
-ul.nav.navbar-nav li{
+ul.nav.navbar-nav li {
     padding-top: 0;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: whitesmoke;
+    border-radius: 0;
+    color: whitesmoke;
 }
 
 /* Logo styling */
@@ -45,3 +48,4 @@ ul.nav.navbar-nav li{
     width: 200px;
     height: 30px;
 }
+
