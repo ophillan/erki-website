@@ -10,13 +10,14 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" type="text/css" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
 
+    <!-- Roboto -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+
     <!-- Custom CSS -->
     <link rel="stylesheet" type="text/css" href="/css/body.css">
     <link rel="stylesheet" type="text/css" href="/css/header.css">
     <link rel="stylesheet" type="text/css" href="/css/media.css">
 
-    <!-- Roboto -->
-    <link href='https://fonts.googleapis.com/css?family=Roboto&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 </head>
 
 <body>

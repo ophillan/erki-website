@@ -10,7 +10,9 @@
 .navbar {
     margin-bottom: 0;
     border: 0;
+    height: 50px;
 }
+
 
 /* Navbar element color */
 .navbar-inverse .navbar-nav > li > a {
@@ -19,17 +21,13 @@
 
 /* Current locale highlight */
 .active {
-    background-color: darkgray;
+    background-color: royalblue;
+    color: royalblue;
 }
 
-.navbar-inverse .navbar-toggle {
-    border-color: whitesmoke;
-    color: whitesmoke;
-}
-
-.navbar-inverse .navbar-nav li a {
+.navbar-inverse .navbar-nav > li > a {
     text-align: center;
-    border-bottom: 2px whitesmoke;
+    height: 50px;
 }
 
 ul.nav.navbar-nav li{
@@ -42,8 +40,8 @@ ul.nav.navbar-nav li{
     display: block;
     margin-top: 10px;
     margin-left: 15px;
+    margin-right: 15px;
     background-size: 200px 30px;
     width: 200px;
     height: 30px;
 }
-

@@ -8,7 +8,7 @@
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="navHeaderCollapse">
-        <ul class="nav navbar-nav" id="navbarbuttons">
+        <ul class="nav navbar-nav">
 
             <!-- Homepage -->
             <li><a href="/">{{ strtoupper(trans('header.homepage')) }}</a></li>
