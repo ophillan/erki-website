@@ -39,7 +39,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://localhost'),
+    'url' => 'http://localhost',
 
     /*
     |--------------------------------------------------------------------------
@@ -66,7 +66,7 @@ return [
     */
 
     'locale' => 'ee',
-    'locales' => ['en' => 'English', 'ee' => 'Estonian', 'ru' => 'Russian'],
+    'locales' => ['en' => 'English', 'ee' => 'Estonian'],
 
     /*
     |--------------------------------------------------------------------------

@@ -1,5 +1,32 @@
-@media (max-width: 768px) {
+@media (max-width: 767px) {
+    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+        text-align: center;
+        color: gray;
+    }
+
     .active {
         background-color: #222;
+    }
+
+    ul.nav.navbar-nav.nav.navbar-right {
+        display: flex;
+        -webkit-justify-content: center; /* Safari */
+        justify-content:         center;
+    }
+}
+
+@media (min-width: 768px) {
+    /* Navbar dropdown mouseover */
+    ul.nav li.dropdown:hover > ul.dropdown-menu {
+        display: block;
+        text-align: center;
+        background-color: #222;
+    }
+}
+
+@media (min-width: 1000px) {
+    #picture1 {
+        display: inline-block;
+        background-image: url("/img/landing/osteo-small.png");
     }
 }

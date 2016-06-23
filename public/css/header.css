@@ -1,11 +1,3 @@
-/* Footer styling and position */
-#footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    font-size: 12px;
-}
-
 /* Override default for footer and navbar border */
 .navbar {
     margin-bottom: 0;
@@ -21,17 +13,33 @@
 /* Current locale highlight */
 .active {
     background-color: royalblue;
-    color: royalblue;
 }
 
+@media (min-width: 979px) {
+    ul.nav li.dropdown:hover > ul.dropdown-menu {
+        display: block;
+    }
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+    color: white;
+}
+
+li:hover {
+    border-bottom: 4px whitesmoke;
+}
+
+/* Navbar dropdown styling */
 .navbar-inverse .navbar-nav > li > a {
     text-align: center;
 }
 
+/* Override header padding */
 ul.nav.navbar-nav li {
     padding-top: 0;
 }
 
+/* Navbar dropdown button */
 .navbar-inverse .navbar-toggle {
     border-color: whitesmoke;
     border-radius: 0;

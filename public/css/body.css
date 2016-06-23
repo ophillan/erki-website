@@ -7,16 +7,15 @@ body {
     margin-bottom: 50px;
 }
 
-* {
+h2, p, li {
     font-family: Roboto, sans-serif;
 }
 
-body > p, li {
+body p, li {
     padding-top: 15px;
     font-size: 14px;
     text-align: justify;
 }
-
 
 #contentrow {
     padding-top: 20px;
@@ -52,4 +51,12 @@ body > p, li {
 .text-highlight {
     color: royalblue;
     font-size: 14px;
+}
+
+/* Footer styling and position */
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 12px;
 }

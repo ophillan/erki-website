@@ -13,7 +13,7 @@
                 <p>{{ trans('landing.symptomstext') }}</p>
             </div>
 
-            <div class="col-md-6"><img src="/img/landing/oa_knee.png" alt="Osteoarthritis" class="img-responsive"></div>
+            <div class="col-md-6"><img id="picture1" src="/img/landing/osteo.png" alt="Osteoarthritis" class="img-responsive"></div>
         </div>
     </div>
 
