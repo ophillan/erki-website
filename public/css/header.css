@@ -1,7 +1,7 @@
 /* Override default for footer and navbar border */
 .navbar {
     margin-bottom: 0;
-    border: 0;
+    border-radius: 0 !important;
 }
 
 /* Navbar element color */
@@ -18,6 +18,13 @@
 /* Dropdown default color */
 .dropdown-menu > li > a {
     color: white;
+}
+
+/* Hover changes */
+.dropdown-menu > li > a:hover {
+    border-bottom: solid thin royalblue;
+    color: royalblue !important;
+    background-color: #222;
 }
 
 /* Navbar dropdown styling */
@@ -49,3 +56,7 @@ ul.nav.navbar-nav li {
     height: 30px;
 }
 
+ul.nav.navbar-nav > li > a:hover {
+    border-bottom: solid thin royalblue;
+    color: royalblue !important;
+}
