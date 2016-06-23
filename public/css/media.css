@@ -26,10 +26,3 @@
         background-color: #222;
     }
 }
-
-@media (min-width: 1000px) {
-    #picture1 {
-        display: inline-block;
-        background-image: url("/img/landing/osteo-small.png");
-    }
-}
