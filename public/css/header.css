@@ -15,18 +15,9 @@
     background-color: royalblue;
 }
 
-@media (min-width: 979px) {
-    ul.nav li.dropdown:hover > ul.dropdown-menu {
-        display: block;
-    }
-}
-
-.navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+/* Dropdown default color */
+.dropdown-menu > li > a {
     color: white;
-}
-
-li:hover {
-    border-bottom: 4px whitesmoke;
 }
 
 /* Navbar dropdown styling */

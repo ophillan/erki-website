@@ -1,17 +1,20 @@
 @media (max-width: 767px) {
+    /* Osteoarthritis dropdown alignment */
     .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
         text-align: center;
-        color: gray;
     }
 
+    /* Remove current language highlight for dropdown */
     .active {
         background-color: #222;
     }
 
+    /* Language div */
     ul.nav.navbar-nav.nav.navbar-right {
         display: flex;
         -webkit-justify-content: center; /* Safari */
         justify-content:         center;
+        margin-top: -15px;
     }
 }
 
