@@ -11,7 +11,7 @@
 
     <div class="row" id="contentrow">
         <div class="col-md-8 col-md-offset-2">
-            <table class="table table-striped">
+            <table class="table">
                 <thead>
                 <tr>
                     <th></th>
@@ -25,7 +25,7 @@
                     <td>3-5</td>
                     <td>1</td>
                 </tr>
-                <tr>
+                <tr class="odd-tr">
                     <th class="col-md-3">{{ trans('viscoplus.tableheading2') }}</th>
                     <td>{{ trans('viscoplus.tablecontent2') }}</td>
                     <td>{{ trans('viscoplus.tablecontent2') }}</td>
@@ -35,7 +35,7 @@
                     <td>{{ trans('viscoplus.tablecontent3_1') }}</td>
                     <td>{{ trans('viscoplus.tablecontent3_2') }}</td>
                 </tr>
-                <tr>
+                <tr class="odd-tr">
                     <th class="col-md-3">{{ trans('viscoplus.tableheading4') }}</th>
                     <td>{{ trans('viscoplus.tablecontent4_1') }}</td>
                     <td>{{ trans('viscoplus.tablecontent4_2') }}</td>

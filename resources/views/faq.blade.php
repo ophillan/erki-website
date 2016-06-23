@@ -20,35 +20,35 @@
 
     <div class="row" id="contentrow">
         <div class="col-md-8 col-md-offset-2">
-            <h2>{{ trans('faq.canwalk') }}</h2>
+            <h2 id="canwalk">{{ trans('faq.canwalk') }}</h2>
             <p>{{ trans('faq.canwalktext') }}</p>
         </div>
     </div>
 
     <div class="row" id="contentrow">
         <div class="col-md-8 col-md-offset-2">
-            <h2>{{ trans('faq.canrepeat') }}</h2>
+            <h2 id="canrepeat">{{ trans('faq.canrepeat') }}</h2>
             <p>{{ trans('faq.canrepeattext') }}</p>
         </div>
     </div>
 
     <div class="row" id="contentrow">
         <div class="col-md-8 col-md-offset-2">
-            <h2>{{ trans('faq.difference') }}</h2>
+            <h2 id="differences">{{ trans('faq.difference') }}</h2>
             <p>{{ trans('faq.differencetext') }}</p>
         </div>
     </div>
 
     <div class="row" id="contentrow">
         <div class="col-md-8 col-md-offset-2">
-            <h2>{{ trans('faq.sideeffects') }}</h2>
+            <h2 id="sideeffects">{{ trans('faq.sideeffects') }}</h2>
             <p>{{ trans('faq.sideeffectstext') }}</p>
         </div>
     </div>
 
     <div class="row" id="contentrow">
         <div class="col-md-8 col-md-offset-2">
-            <h2 id="symptoms">{{ trans('faq.precautions') }}</h2>
+            <h2 id="precautions">{{ trans('faq.precautions') }}</h2>
             <ul>
                 <li>{{ trans('faq.precautions1') }}</li>
                 <li>{{ trans('faq.precautions2') }}</li>

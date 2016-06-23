@@ -21,7 +21,7 @@
                    aria-expanded="false">{{ strtoupper(trans('header.disease')) }}<span
                             class="caret"></span></a>
                 <ul class="dropdown-menu">
-                    <li><a href="/public/info#whatis">{{ trans('header.whatis') }}</a></li>
+                    <li><a href="/public/info#causes">{{ trans('header.whatis') }}</a></li>
                     <li><a href="/public/info#symptoms">{{ trans('header.symptoms') }}</a></li>
                     <li><a href="/public/info#riskfactors">{{ trans('header.riskfactors') }}</a></li>
                     <li><a href="/public/info#treatment">{{ trans('header.treatment') }}</a></li>
@@ -32,7 +32,21 @@
             <li><a href="/public/viscoplus">VISCOPLUS</a></li>
 
             <!-- FAQ -->
-            <li><a href="/public/faq">{{trans('header.faq')}}</a></li>
+            <li class="dropdown">
+                <a href="/public/faq" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                   aria-haspopup="true"
+                   aria-expanded="false">{{ strtoupper(trans('header.faq')) }}<span
+                            class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="/public/faq">{{ trans('header.faq1') }}</a></li>
+                    <li><a href="/public/faq">{{ trans('header.faq2') }}</a></li>
+                    <li><a href="/public/faq#canwalk">{{ trans('header.faq3') }}</a></li>
+                    <li><a href="/public/faq#canrepeat">{{ trans('header.faq4') }}</a></li>
+                    <li><a href="/public/faq#differences">{{ trans('header.faq5') }}</a></li>
+                    <li><a href="/public/faq#sideeffects">{{ trans('header.faq6') }}</a></li>
+                    <li><a href="/public/faq#precautions">{{ trans('header.faq7') }}</a></li>
+                </ul>
+            </li>
         </ul>
 
         <ul class="nav navbar-nav navbar-right">
