@@ -66,5 +66,9 @@ body p, li {
 }
 
 .odd-tr {
-    background-color: whitesmoke;
+    background: linear-gradient(whitesmoke, lightgray);
+}
+
+.even-tr {
+    background: linear-gradient(#C0C0C0, lightgray);
 }

@@ -13,14 +13,14 @@
         <div class="col-md-8 col-md-offset-2">
             <table class="table">
                 <thead>
-                <tr>
+                <tr class="odd-tr">
                     <th></th>
                     <th><h2 class="text-center">ViscoPlus One</h2></th>
                     <th><h2 class="text-center">ViscoPlus Gel</h2></th>
                 </tr>
                 </thead>
                 <tbody>
-                <tr>
+                <tr class="odd-tr">
                     <th class="col-md-3">{{ trans('viscoplus.tableheading1') }}</th>
                     <td>3-5</td>
                     <td>1</td>
@@ -30,7 +30,7 @@
                     <td>{{ trans('viscoplus.tablecontent2') }}</td>
                     <td>{{ trans('viscoplus.tablecontent2') }}</td>
                 </tr>
-                <tr>
+                <tr class="odd-tr">
                     <th class="col-md-3">{{ trans('viscoplus.tableheading3') }}</th>
                     <td>{{ trans('viscoplus.tablecontent3_1') }}</td>
                     <td>{{ trans('viscoplus.tablecontent3_2') }}</td>

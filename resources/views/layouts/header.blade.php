@@ -37,7 +37,7 @@
                    aria-haspopup="true"
                    aria-expanded="false">{{ strtoupper(trans('header.faq')) }}<span
                             class="caret"></span></a>
-                <ul class="dropdown-menu">
+                <ul class="dropdown-menu" id="faq-menu">
                     <li><a href="/public/faq">{{ trans('header.faq1') }}</a></li>
                     <li><a href="/public/faq">{{ trans('header.faq2') }}</a></li>
                     <li><a href="/public/faq#canwalk">{{ trans('header.faq3') }}</a></li>
