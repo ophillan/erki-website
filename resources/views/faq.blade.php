@@ -20,7 +20,7 @@
 
     <div class="row" id="contentrow">
         <div class="col-md-8 col-md-offset-2">
-            <h2 id="canwalk">{{ trans('faq.canwalk') }}</h2>
+            <h2>{{ trans('faq.canwalk') }}</h2>
             <p>{{ trans('faq.canwalktext') }}</p>
         </div>
     </div>

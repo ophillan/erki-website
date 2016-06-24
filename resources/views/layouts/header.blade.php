@@ -16,7 +16,7 @@
 
             <!-- Osteoarthritis -->
             <li class="dropdown">
-                <a href="/public/info" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                <a href="/public/info" role="button"
                    aria-haspopup="true"
                    aria-expanded="false">{{ strtoupper(trans('header.disease')) }}<span
                             class="caret"></span></a>
@@ -33,13 +33,13 @@
 
             <!-- FAQ -->
             <li class="dropdown">
-                <a href="/public/faq" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                <a href="/public/faq" role="button"
                    aria-haspopup="true"
                    aria-expanded="false">{{ strtoupper(trans('header.faq')) }}<span
                             class="caret"></span></a>
                 <ul class="dropdown-menu" id="faq-menu">
-                    <li><a href="/public/faq">{{ trans('header.faq1') }}</a></li>
-                    <li><a href="/public/faq">{{ trans('header.faq2') }}</a></li>
+                    <li><a href="/public/faq#doesithurt">{{ trans('header.faq1') }}</a></li>
+                    <li><a href="/public/faq#duration">{{ trans('header.faq2') }}</a></li>
                     <li><a href="/public/faq#canwalk">{{ trans('header.faq3') }}</a></li>
                     <li><a href="/public/faq#canrepeat">{{ trans('header.faq4') }}</a></li>
                     <li><a href="/public/faq#differences">{{ trans('header.faq5') }}</a></li>
