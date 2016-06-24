@@ -51,3 +51,21 @@
         margin-left: -150px;
     }
 }
+
+@media (min-width: 1400px) {
+    #picture1 {
+        padding-top: 30px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 840px) {
+    #picture1 {
+        padding-top: 30px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1275px) {
+    #picture1 {
+        padding-top: 30px;
+    }
+}

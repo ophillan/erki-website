@@ -61,10 +61,6 @@ body p, li {
     font-size: 12px;
 }
 
-#picture1 {
-    padding-top: 20px;
-}
-
 .odd-tr {
     background: linear-gradient(whitesmoke, lightgray);
 }
