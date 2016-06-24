@@ -16,7 +16,7 @@
 
             <!-- Osteoarthritis -->
             <li class="dropdown">
-                <a href="/public/info" role="button"
+                <a href="/public/info" class="dropdown-toggle disabled" data-toggle="dropdown" role="button"
                    aria-haspopup="true"
                    aria-expanded="false">{{ strtoupper(trans('header.disease')) }}<span
                             class="caret"></span></a>
@@ -33,7 +33,7 @@
 
             <!-- FAQ -->
             <li class="dropdown">
-                <a href="/public/faq" role="button"
+                <a href="/public/faq" class="dropdown-toggle" data-toggle="dropdown" role="button"
                    aria-haspopup="true"
                    aria-expanded="false">{{ strtoupper(trans('header.faq')) }}<span
                             class="caret"></span></a>

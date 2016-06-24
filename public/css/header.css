@@ -20,7 +20,7 @@
     color: white;
 }
 
-/* Hover changes */
+/* Hover styling  */
 .dropdown-menu > li > a:hover {
     border-bottom: solid thin royalblue;
     color: royalblue !important;
@@ -54,7 +54,13 @@ ul.nav.navbar-nav li {
     height: 30px;
 }
 
+/* Hover styling */
 ul.nav.navbar-nav > li > a:hover {
     border-bottom: solid thin royalblue;
     color: royalblue !important;
+}
+
+/* Language element height fix */
+ul.nav.navbar-nav.nav.navbar-right {
+    margin-top: -2px;
 }

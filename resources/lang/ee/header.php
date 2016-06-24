@@ -12,9 +12,6 @@ return [
     'riskfactors' => 'Riskifaktorid',
     'treatment' => 'Ravivõimalused',
     
-    /** Viscoplus */
-
-    
     /** FAQ */
     'faq' => 'KKK',
     'faq1' => 'Kas ViscoPlus\'i süstimine on valus?',
@@ -24,7 +21,4 @@ return [
     'faq5' => 'Mis eristab ViscoPlus’i teistest toodetest?',
     'faq6' => 'Millised on ViscoPlusi võimalikud kõrvaltoimed?',
     'faq7' => 'Vastunäidustused ja ettevaatusabinõud',
-
-    /** Contact */
-    'contact' => 'Kontakt',
 ];
