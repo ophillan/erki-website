@@ -16,7 +16,7 @@
 
             <!-- Osteoarthritis -->
             <li class="dropdown">
-                <a href="/public/info" class="dropdown-toggle disabled" data-toggle="dropdown" role="button"
+                <a href="/public/info" class="dropdown-toggle" data-toggle="dropdown" role="button"
                    aria-haspopup="true"
                    aria-expanded="false">{{ strtoupper(trans('header.disease')) }}<span
                             class="caret"></span></a>
