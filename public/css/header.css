@@ -64,3 +64,8 @@ ul.nav.navbar-nav > li > a:hover {
 ul.nav.navbar-nav.nav.navbar-right {
     margin-top: -2px;
 }
+
+.active-link {
+    border-bottom: solid thin royalblue;
+    color: royalblue !important;
+}

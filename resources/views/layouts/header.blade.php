@@ -2,7 +2,8 @@
 <div class="col-sm-12 col-md-10 col-md-offset-1">
     <div class="navbar-header">
         <button class="navbar-toggle collapsed" data-toggle="collapse"
-              data-target="#navHeaderCollapse" aria-expanded="false">MENÜÜ</button>
+                data-target="#navHeaderCollapse" aria-expanded="false">MENÜÜ
+        </button>
 
         <a class="img-responsive" id="main-logo" href="/"></a>
     </div>
@@ -12,11 +13,13 @@
         <ul class="nav navbar-nav">
 
             <!-- Homepage -->
-            <li><a href="/">{{ strtoupper(trans('header.homepage')) }}</a></li>
+            <li><a class="{{ Route::getCurrentRoute()->getPath()=='/' ? 'active-link' : '' }}"
+                   href="/">{{ strtoupper(trans('header.homepage')) }}</a></li>
 
             <!-- Osteoarthritis -->
             <li class="dropdown">
-                <a href="/public/info" role="button"
+                <a class="{{ Route::getCurrentRoute()->getPath()=='public/info' ? 'active-link' : '' }}"
+                   href="/public/info" role="button"
                    aria-haspopup="true"
                    aria-expanded="false">{{ strtoupper(trans('header.disease')) }}<span
                             class="caret"></span></a>
@@ -29,11 +32,13 @@
             </li>
 
             <!-- Viscoplus -->
-            <li><a href="/public/viscoplus">VISCOPLUS</a></li>
+            <li><a class="{{ Route::getCurrentRoute()->getPath()=='public/viscoplus' ? 'active-link' : '' }}"
+                   href="/public/viscoplus">VISCOPLUS</a></li>
 
             <!-- FAQ -->
             <li class="dropdown">
-                <a href="/public/faq" role="button"
+                <a class="{{ Route::getCurrentRoute()->getPath()=='public/faq' ? 'active-link' : '' }}"
+                   href="/public/faq" role="button"
                    aria-haspopup="true"
                    aria-expanded="false">{{ strtoupper(trans('header.faq')) }}<span
                             class="caret"></span></a>

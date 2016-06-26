@@ -1,15 +1,11 @@
 @extends('layouts.layout')
 
 @section('content')
-
     <div class="row" id="contentrow">
         <div class="col-md-8 col-md-offset-2">
-
-            <div id="contentrow">
-                <h2 id="causes">{{ trans('info.whatcauses') }}</h2>
-                <p>{{ trans('info.whatcausestext1') }}</p>
-                <p>{{ trans('info.whatcausestext2') }}</p>
-            </div>
+            <h2 id="causes">{{ trans('info.whatcauses') }}</h2>
+            <p>{{ trans('info.whatcausestext1') }}</p>
+            <p>{{ trans('info.whatcausestext2') }}</p>
         </div>
     </div>
 

@@ -11,6 +11,11 @@ h2, p, li {
     font-family: Roboto, sans-serif;
 }
 
+h2 {
+    color: royalblue;
+    font-size: 24px;
+}
+
 body p, li {
     padding-top: 15px;
     font-size: 14px;
@@ -24,30 +29,21 @@ body p, li {
 
 #contentrow:nth-child(odd) {
     background: grey; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(white, lightgray); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(white, lightgray); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(white, lightgray); /* For Firefox 3.6 to 15 */
+    background: -webkit-linear-gradient(whitesmoke, lightgray); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(whitesmoke, lightgray); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(whitesmoke, lightgray); /* For Firefox 3.6 to 15 */
     background: linear-gradient(whitesmoke, lightgray); /* Standard syntax */
 }
 
 #contentrow:nth-child(even) {
     background: grey; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(darkgray, lightgray); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(darkgray, lightgray); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(darkgray, lightgray); /* For Firefox 3.6 to 15 */
+    background: -webkit-linear-gradient(#C0C0C0, lightgray); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#C0C0C0, lightgray); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#C0C0C0, lightgray); /* For Firefox 3.6 to 15 */
     background: linear-gradient(#C0C0C0, lightgray); /* Standard syntax */
 }
 
-.row:nth-child(odd) h2 {
-    color: royalblue;
-    font-size: 24px;
-}
-
-.row:nth-child(even) h2 {
-    color: royalblue;
-    font-size: 24px;
-}
-
+/* Highlighted text styling */
 .text-highlight {
     color: royalblue;
     font-size: 14px;
@@ -61,10 +57,7 @@ body p, li {
     font-size: 12px;
 }
 
-.odd-tr {
+/* Table styling */
+tr {
     background: linear-gradient(whitesmoke, lightgray);
-}
-
-.even-tr {
-    background: linear-gradient(#C0C0C0, lightgray);
 }
