@@ -21,4 +21,7 @@ return [
     'faq5' => '',
     'faq6' => '',
     'faq7' => '',
+
+    /** Footer */
+    'footer' => 'Maaletooja',
 ];

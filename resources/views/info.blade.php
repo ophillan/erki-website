@@ -6,7 +6,7 @@
         <div class="col-md-8 col-md-offset-2">
 
             <div id="contentrow">
-                <h2 id="whatis">{{ trans('info.whatcauses') }}</h2>
+                <h2 id="causes">{{ trans('info.whatcauses') }}</h2>
                 <p>{{ trans('info.whatcausestext1') }}</p>
                 <p>{{ trans('info.whatcausestext2') }}</p>
             </div>
@@ -49,9 +49,15 @@
             <p>{{ trans('info.treatmentoptions') }}</p>
 
             <ul>
-                <li><span class="text-highlight">{{ trans('info.treatmentoption1') }}</span> {{trans('info.treatmentoption1_text')}}</li>
-                <li><span class="text-highlight">{{ trans('info.treatmentoption2') }}</span> {{trans('info.treatmentoption2_text')}}</li>
-                <li><span class="text-highlight">{{ trans('info.treatmentoption3') }}</span> {{trans('info.treatmentoption3_text')}}</li>
+                <li>
+                    <span class="text-highlight">{{ trans('info.treatmentoption1') }}</span> {{trans('info.treatmentoption1_text')}}
+                </li>
+                <li>
+                    <span class="text-highlight">{{ trans('info.treatmentoption2') }}</span> {{trans('info.treatmentoption2_text')}}
+                </li>
+                <li>
+                    <span class="text-highlight">{{ trans('info.treatmentoption3') }}</span> {{trans('info.treatmentoption3_text')}}
+                </li>
             </ul>
         </div>
     </div>

@@ -1,8 +1,8 @@
 <!-- Brand and toggle get grouped for better mobile display -->
 <div class="col-sm-12 col-md-10 col-md-offset-1">
     <div class="navbar-header">
-        <span class="navbar-toggle collapsed" data-toggle="collapse"
-              data-target="#navHeaderCollapse" aria-expanded="false">MENÜÜ</span>
+        <button class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target="#navHeaderCollapse" aria-expanded="false">MENÜÜ</button>
 
         <a class="img-responsive" id="main-logo" href="/"></a>
     </div>
@@ -16,7 +16,7 @@
 
             <!-- Osteoarthritis -->
             <li class="dropdown">
-                <a href="/public/info" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                <a href="/public/info" role="button"
                    aria-haspopup="true"
                    aria-expanded="false">{{ strtoupper(trans('header.disease')) }}<span
                             class="caret"></span></a>
@@ -33,7 +33,7 @@
 
             <!-- FAQ -->
             <li class="dropdown">
-                <a href="/public/faq" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                <a href="/public/faq" role="button"
                    aria-haspopup="true"
                    aria-expanded="false">{{ strtoupper(trans('header.faq')) }}<span
                             class="caret"></span></a>

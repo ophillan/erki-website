@@ -23,6 +23,8 @@ return [
     
     'procedure' => '',
     'proceduretext' => '',
-    
+
     'productmanual' => '',
+    'productmanualtext1' => '',
+    'productmanualtext2' => '',
 ];

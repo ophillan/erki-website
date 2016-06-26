@@ -2,8 +2,8 @@
 
 return [
     'doesithurt' => 'Kas ViscoPlus’i süstimine on valus?',
-    'doesithurttext' => 'ViscoPlus ravimi süstimisel võib esineda minimaalne torkevalu, nagu tavalise süsti korralgi. Kui liigeses esineb turse, siis tehakse esmalt valuvaigistav süst, seejärel eemaldatakse liigne vedelik ning  tehakse süst Viscoplus ravimiga.',
-
+    'doesithurttext' => 'ViscoPlus ravimi süstimisel võib esineda minimaalne torkevalu, nagu tavalise süsti korralgi. Kui liigeses esineb turse, siis tehakse esmalt valuvaigistav süst ning seejärel tehakse süst Viscoplus ravimiga.',
+    
     'howlong' => 'Kui kaua protseduur kestab?',
     'howlongtext' => 'Kogu protseduur kestab kokku umbes 15 minutit ning see viiakse läbi tavapärase arsti vastuvõtu raames.',
 

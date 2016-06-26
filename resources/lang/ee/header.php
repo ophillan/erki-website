@@ -21,4 +21,7 @@ return [
     'faq5' => 'Mis eristab ViscoPlus’i teistest toodetest?',
     'faq6' => 'Millised on ViscoPlusi võimalikud kõrvaltoimed?',
     'faq7' => 'Vastunäidustused ja ettevaatusabinõud',
+
+    /** Footer */
+    'footer' => 'Maaletooja',
 ];
