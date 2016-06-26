@@ -61,7 +61,7 @@
                     <li><a href="/public/lang/{{ $lang }}"><img src="/img/flags/{{ $lang }}_flag.png"></a>
                     </li>
                 @else
-                    <li><a class="active" href="/public/lang/{{ $lang }}"><img
+                    <li><a class="active-locale" href="/public/lang/{{ $lang }}"><img
                                     src="/img/flags/{{ $lang }}_flag.png"></a>
                     </li>
                 @endif

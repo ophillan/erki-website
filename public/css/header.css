@@ -10,8 +10,14 @@
     color: white;
 }
 
+/* Header active link styling */
+.active-link {
+    border-bottom: solid thin royalblue;
+    color: royalblue !important;
+}
+
 /* Current locale highlight */
-.active {
+.active-locale {
     background-color: royalblue;
 }
 
@@ -63,9 +69,4 @@ ul.nav.navbar-nav > li > a:hover {
 /* Language element height fix */
 ul.nav.navbar-nav.nav.navbar-right {
     margin-top: -2px;
-}
-
-.active-link {
-    border-bottom: solid thin royalblue;
-    color: royalblue !important;
 }

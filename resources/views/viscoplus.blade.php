@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="row" id="contentrow">
-        <div class="col-md-8 col-md-offset-2">
+        <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
             <h2 id="whatis">{{ trans('viscoplus.whatisvp') }}</h2>
             <p>{{ trans('viscoplus.whatistext1') }}</p>
             <p>{{ trans('viscoplus.whatistext2') }}</p>
@@ -10,7 +10,7 @@
     </div>
 
     <div class="row" id="contentrow">
-        <div class="col-md-8 col-md-offset-2">
+        <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
             <table class="table">
                 <thead>
                 <tr>
@@ -46,28 +46,28 @@
     </div>
 
     <div class="row" id="contentrow">
-        <div class="col-md-8 col-md-offset-2">
+        <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
             <h2>{{ trans('viscoplus.whatisnahy') }}</h2>
             <p>{{ trans('viscoplus.whatisnahytext') }}</p>
         </div>
     </div>
 
     <div class="row" id="contentrow">
-        <div class="col-md-8 col-md-offset-2">
+        <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
             <h2>{{ trans('viscoplus.howworks') }}</h2>
             <p>{{ trans('viscoplus.howworkstext') }}</p>
         </div>
     </div>
 
     <div class="row" id="contentrow">
-        <div class="col-md-8 col-md-offset-2">
+        <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
             <h2>{{ trans('viscoplus.procedure') }}</h2>
             <p>{{ trans('viscoplus.proceduretext') }}</p>
         </div>
     </div>
 
     <div class="row" id="contentrow">
-        <div class="col-md-8 col-md-offset-2">
+        <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
             <h2>{{ trans('viscoplus.productmanual') }}</h2>
             <p>{{ trans('viscoplus.productmanualtext1') }}
                 <a href="http://www.biomedical-baumann.com/joint_health.php" target="_blank">BioMedical</a>

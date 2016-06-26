@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="row" id="contentrow">
-        <div class="col-md-8 col-md-offset-2">
+        <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
             <h2 id="causes">{{ trans('info.whatcauses') }}</h2>
             <p>{{ trans('info.whatcausestext1') }}</p>
             <p>{{ trans('info.whatcausestext2') }}</p>
@@ -10,7 +10,7 @@
     </div>
 
     <div class="row" id="contentrow">
-        <div class="col-md-8 col-md-offset-2">
+        <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
             <h2 id="symptoms">{{ trans('info.symptoms') }}</h2>
             <ul>
                 <li>{{ trans('info.symptoms1') }}</li>
@@ -23,7 +23,7 @@
     </div>
 
     <div class="row" id="contentrow">
-        <div class="col-md-8 col-md-offset-2">
+        <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
             <h2 id="riskfactors">{{ trans('info.riskfactors') }}</h2>
             <ul>
                 <li>{{ trans('info.riskfactor1') }}</li>
@@ -39,11 +39,10 @@
     </div>
 
     <div class="row" id="contentrow">
-        <div class="col-md-8 col-md-offset-2">
+        <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
             <h2 id="treatment">{{ trans('info.treatment') }}</h2>
             <p>{{ trans('info.treatmenttext') }}</p>
             <p>{{ trans('info.treatmentoptions') }}</p>
-
             <ul>
                 <li>
                     <span class="text-highlight">{{ trans('info.treatmentoption1') }}</span> {{trans('info.treatmentoption1_text')}}

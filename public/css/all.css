@@ -1,0 +1,430 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 50px;
+}
+
+h2, p, li {
+    font-family: Roboto, sans-serif;
+}
+
+h2 {
+    color: royalblue;
+    font-size: 24px;
+}
+
+body p, li {
+    padding-top: 15px;
+    font-size: 14px;
+    text-align: justify;
+}
+
+#contentrow {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#contentrow:nth-child(odd) {
+    background: grey; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(whitesmoke, lightgray); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(whitesmoke, lightgray); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(whitesmoke, lightgray); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(whitesmoke, lightgray); /* Standard syntax */
+}
+
+#contentrow:nth-child(even) {
+    background: grey; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#C0C0C0, lightgray); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#C0C0C0, lightgray); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#C0C0C0, lightgray); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#C0C0C0, lightgray); /* Standard syntax */
+}
+
+/* Highlighted text styling */
+.text-highlight {
+    color: royalblue;
+    font-size: 14px;
+}
+
+/* Footer styling and position */
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 12px;
+}
+
+/* Table styling */
+tr {
+    background: linear-gradient(whitesmoke, lightgray);
+}
+/* Override default for footer and navbar border */
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0 !important;
+}
+
+/* Navbar element color */
+.navbar-inverse .navbar-nav > li > a {
+    margin-top: 2px;
+    color: white;
+}
+
+/* Header active link styling */
+.active-link {
+    border-bottom: solid thin royalblue;
+    color: royalblue !important;
+}
+
+/* Current locale highlight */
+.active-locale {
+    background-color: royalblue;
+}
+
+/* Dropdown default color */
+.dropdown-menu > li > a {
+    color: white;
+}
+
+/* Hover styling  */
+.dropdown-menu > li > a:hover {
+    border-bottom: solid thin royalblue;
+    color: royalblue !important;
+    background-color: #222;
+}
+
+/* Navbar dropdown styling */
+.navbar-inverse .navbar-nav > li > a {
+    text-align: center;
+}
+
+/* Override header padding */
+ul.nav.navbar-nav li {
+    padding-top: 0;
+}
+
+/* Navbar dropdown button */
+.navbar-inverse .navbar-toggle {
+    border-color: whitesmoke;
+    border-radius: 0;
+    color: whitesmoke;
+}
+
+/* Logo styling */
+#main-logo {
+    background: url("/../img/logos/viscoplus_logo.png") no-repeat;
+    display: block;
+    margin-top: 10px;
+    background-size: 200px 30px;
+    width: 200px;
+    height: 30px;
+}
+
+/* Hover styling */
+ul.nav.navbar-nav > li > a:hover {
+    border-bottom: solid thin royalblue;
+    color: royalblue !important;
+}
+
+/* Language element height fix */
+ul.nav.navbar-nav.nav.navbar-right {
+    margin-top: -2px;
+}
+@media (max-width: 767px) {
+    /* Osteoarthritis dropdown alignment */
+    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+        text-align: center;
+    }
+
+    /* Mouseover highlight */
+    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover {
+        border-bottom: solid thin royalblue;
+        color: royalblue !important;
+    }
+
+    /* Remove current language highlight for dropdown */
+    .active {
+        background-color: #222;
+    }
+
+    /* Focus color from black to less black */
+    .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus {
+        background-color: #222;
+    }
+
+    /* Language div styling */
+    ul.nav.navbar-nav.nav.navbar-right {
+        display: flex;
+        -webkit-justify-content: center; /* Safari */
+        justify-content: center;
+        margin-top: -9px;
+    }
+}
+
+/* Navbar dropdown mouseover */
+@media (min-width: 768px) {
+    ul.nav li.dropdown:hover > ul.dropdown-menu {
+        display: block;
+        text-align: center;
+        background-color: #222;
+    }
+}
+
+/* Header FAQ dropdown off-screen fix */
+@media (min-width: 820px) and (max-width: 1000px){
+    #faq-menu {
+        margin-left: -100px;
+    }
+}
+
+/* Header FAQ dropdown off-screen fix */
+@media (min-width: 769px) and (max-width: 819px){
+    #faq-menu {
+        margin-left: -150px;
+    }
+}
+
+@media (min-width: 1400px) {
+    #picture1 {
+        padding-top: 30px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 840px) {
+    #picture1 {
+        padding-top: 30px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1275px) {
+    #picture1 {
+        padding-top: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .caret {
+        visibility: hidden;
+    }
+}
+/*# sourceMappingURL=all.css.map */
+
+
+/*# sourceMappingURL=app.css.map */
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 50px;
+}
+
+h2, p, li {
+    font-family: Roboto, sans-serif;
+}
+
+h2 {
+    color: royalblue;
+    font-size: 24px;
+}
+
+body p, li {
+    padding-top: 15px;
+    font-size: 14px;
+    text-align: justify;
+}
+
+#contentrow {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#contentrow:nth-child(odd) {
+    background: grey; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(whitesmoke, lightgray); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(whitesmoke, lightgray); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(whitesmoke, lightgray); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(whitesmoke, lightgray); /* Standard syntax */
+}
+
+#contentrow:nth-child(even) {
+    background: grey; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#C0C0C0, lightgray); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#C0C0C0, lightgray); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#C0C0C0, lightgray); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#C0C0C0, lightgray); /* Standard syntax */
+}
+
+/* Highlighted text styling */
+.text-highlight {
+    color: royalblue;
+    font-size: 14px;
+}
+
+/* Footer styling and position */
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 12px;
+}
+
+/* Table styling */
+tr {
+    background: linear-gradient(whitesmoke, lightgray);
+}
+/* Override default for footer and navbar border */
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0 !important;
+}
+
+/* Navbar element color */
+.navbar-inverse .navbar-nav > li > a {
+    margin-top: 2px;
+    color: white;
+}
+
+/* Header active link styling */
+.active-link {
+    border-bottom: solid thin royalblue;
+    color: royalblue !important;
+}
+
+/* Current locale highlight */
+.active-locale {
+    background-color: royalblue;
+}
+
+/* Dropdown default color */
+.dropdown-menu > li > a {
+    color: white;
+}
+
+/* Hover styling  */
+.dropdown-menu > li > a:hover {
+    border-bottom: solid thin royalblue;
+    color: royalblue !important;
+    background-color: #222;
+}
+
+/* Navbar dropdown styling */
+.navbar-inverse .navbar-nav > li > a {
+    text-align: center;
+}
+
+/* Override header padding */
+ul.nav.navbar-nav li {
+    padding-top: 0;
+}
+
+/* Navbar dropdown button */
+.navbar-inverse .navbar-toggle {
+    border-color: whitesmoke;
+    border-radius: 0;
+    color: whitesmoke;
+}
+
+/* Logo styling */
+#main-logo {
+    background: url("/../img/logos/viscoplus_logo.png") no-repeat;
+    display: block;
+    margin-top: 10px;
+    background-size: 200px 30px;
+    width: 200px;
+    height: 30px;
+}
+
+/* Hover styling */
+ul.nav.navbar-nav > li > a:hover {
+    border-bottom: solid thin royalblue;
+    color: royalblue !important;
+}
+
+/* Language element height fix */
+ul.nav.navbar-nav.nav.navbar-right {
+    margin-top: -2px;
+}
+@media (max-width: 767px) {
+    /* Osteoarthritis dropdown alignment */
+    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+        text-align: center;
+    }
+
+    /* Mouseover highlight */
+    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover {
+        border-bottom: solid thin royalblue;
+        color: royalblue !important;
+    }
+
+    /* Remove current language highlight for dropdown */
+    .active {
+        background-color: #222;
+    }
+
+    /* Focus color from black to less black */
+    .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus {
+        background-color: #222;
+    }
+
+    /* Language div styling */
+    ul.nav.navbar-nav.nav.navbar-right {
+        display: flex;
+        -webkit-justify-content: center; /* Safari */
+        justify-content: center;
+        margin-top: -9px;
+    }
+}
+
+/* Navbar dropdown mouseover */
+@media (min-width: 768px) {
+    ul.nav li.dropdown:hover > ul.dropdown-menu {
+        display: block;
+        text-align: center;
+        background-color: #222;
+    }
+}
+
+/* Header FAQ dropdown off-screen fix */
+@media (min-width: 820px) and (max-width: 1000px){
+    #faq-menu {
+        margin-left: -100px;
+    }
+}
+
+/* Header FAQ dropdown off-screen fix */
+@media (min-width: 769px) and (max-width: 819px){
+    #faq-menu {
+        margin-left: -150px;
+    }
+}
+
+@media (min-width: 1400px) {
+    #picture1 {
+        padding-top: 30px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 840px) {
+    #picture1 {
+        padding-top: 30px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1275px) {
+    #picture1 {
+        padding-top: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .caret {
+        visibility: hidden;
+    }
+}
+/*# sourceMappingURL=all.css.map */
