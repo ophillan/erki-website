@@ -58,11 +58,12 @@
             <!-- Languages -->
             @foreach (Config::get('languages') as $lang => $language)
                 @if ($lang != App::getLocale())
-                    <li><a href="/public/lang/{{ $lang }}"><img src="/img/flags/{{ $lang }}_flag.png"></a>
+                    <li><a href="/public/lang/{{ $lang }}"><img alt="{{ strtoupper($lang) }}"
+                                                                src="/img/flags/{{ $lang }}_flag.png"></a>
                     </li>
                 @else
-                    <li><a class="active-locale" href="/public/lang/{{ $lang }}"><img
-                                    src="/img/flags/{{ $lang }}_flag.png"></a>
+                    <li><a class="active-locale" href="/public/lang/{{ $lang }}"><img alt="{{ strtoupper($lang) }}"
+                                                                                      src="/img/flags/{{ $lang }}_flag.png"></a>
                     </li>
                 @endif
             @endforeach

@@ -146,8 +146,8 @@ ul.nav.navbar-nav.nav.navbar-right {
     }
 
     /* Remove current language highlight for dropdown */
-    .active {
-        background-color: #222;
+    .active-locale {
+        background-color: #222 !important;
     }
 
     /* Focus color from black to less black */
