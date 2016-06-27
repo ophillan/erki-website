@@ -24,7 +24,7 @@ return [
     'procedure' => 'Protseduurikirjeldus',
     'proceduretext' => 'ViscoPlus’i süstitakse kahjustunud liigesesse arsti poolt. Antud protseduur on väga lihtne, kestab vaid paar minutit ning pärast on võimalik kohe koju minna ning jätkata oma igapäeva tegevustega. Süstimise koht töödeldakse antiseptilise vahendiga. Vastavat kohta tuimestatakse ning erijuhtudel eemaldatakse vajadusel korral liigesest sinna kogunenud vedelik. Seejärel teeb arst süsti ViscoPlus ravimiga.',
 
-    'productmanual' => 'Toote kasutusjuhendid',
-    'productmanualtext1' => 'Link tootja',
-    'productmanualtext2' => ' kodulehele.',
+    'additionalinfo' => 'Lisainformatsioon',
+    'additionalinfotext1' => 'Link tootja',
+    'additionalinfotext2' => ' kodulehele.',
 ];

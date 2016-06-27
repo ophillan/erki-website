@@ -68,10 +68,10 @@
 
     <div class="row" id="contentrow">
         <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
-            <h2>{{ trans('viscoplus.productmanual') }}</h2>
-            <p>{{ trans('viscoplus.productmanualtext1') }}
+            <h2>{{ trans('viscoplus.additionalinfo') }}</h2>
+            <p>{{ trans('viscoplus.additionalinfotext1') }}
                 <a href="http://www.biomedical-baumann.com/joint_health.php" target="_blank">BioMedical</a>
-                {{trans('viscoplus.productmanualtext2')}}
+                {{trans('viscoplus.additionalinfotext2')}}
             </p>
         </div>
     </div>

@@ -24,7 +24,7 @@ return [
     'procedure' => '',
     'proceduretext' => '',
 
-    'productmanual' => '',
-    'productmanualtext1' => '',
-    'productmanualtext2' => '',
+    'additionalinfo' => '',
+    'additionalinfotext1' => '',
+    'additionalinfotext2' => '',
 ];
