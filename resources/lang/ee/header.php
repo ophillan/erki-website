@@ -2,6 +2,9 @@
 
 return [
 
+    /** SEO description */
+    'description' => 'Orthotrade OÜ ravib Teie osteoartriidist tingitud põlve või mõne muu liigese valu vaid ühe süstiga. Raviks kontakteeru oma perearsti või ortopeediga.',
+
     /** Homepage */
     'homepage' => 'avaleht',
 

@@ -2,6 +2,9 @@
 
 return [
 
+    /** SEO description */
+    'description' => '',
+    
     /** Homepage */
     'homepage' => 'дома',
 
