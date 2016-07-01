@@ -39,16 +39,16 @@
 }
 
 /* Header FAQ dropdown off-screen fix */
-@media (min-width: 820px) and (max-width: 1000px){
+@media (min-width: 820px) and (max-width: 1110px){
     #faq-menu {
-        margin-left: -100px;
+        margin-left: -200px;
     }
 }
 
 /* Header FAQ dropdown off-screen fix */
 @media (min-width: 769px) and (max-width: 819px){
     #faq-menu {
-        margin-left: -150px;
+        margin-left: -225px;
     }
 }
 

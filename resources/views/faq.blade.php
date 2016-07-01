@@ -4,7 +4,6 @@
 
     <div class="row" id="contentrow">
         <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
-
             <h2 id="doesithurt">{{ trans('faq.doesithurt') }}</h2>
             <p>{{ trans('faq.doesithurttext') }}</p>
         </div>

@@ -21,7 +21,8 @@ return [
     'faq2' => 'Kui kaua protseduur kestab?',
     'faq3' => 'Kas ma saan kohe pärast süsti kõndida?',
     'faq4' => 'Kas ViscoPlus’i ravisüsti võib vajadusel korrata?',
-    'faq5' => 'Mis eristab ViscoPlus’i teistest toodetest?',
+    'faq5_1' => 'Mis vahe on ViscoPlus’il ja teistel naatrium-',
+    'faq5_2' => 'hüaluronaadil baseeruvatel toodetel (Durolane, Synvisc)?',
     'faq6' => 'Millised on ViscoPlusi võimalikud kõrvaltoimed?',
     'faq7' => 'Vastunäidustused ja ettevaatusabinõud',
 

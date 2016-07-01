@@ -47,7 +47,7 @@
                     <li><a href="/public/faq#duration">{{ trans('header.faq2') }}</a></li>
                     <li><a href="/public/faq#canwalk">{{ trans('header.faq3') }}</a></li>
                     <li><a href="/public/faq#canrepeat">{{ trans('header.faq4') }}</a></li>
-                    <li><a href="/public/faq#differences">{{ trans('header.faq5') }}</a></li>
+                    <li><a href="/public/faq#differences">{{ trans('header.faq5_1') }} <br> {{ trans('header.faq5_2') }}</a></li>
                     <li><a href="/public/faq#sideeffects">{{ trans('header.faq6') }}</a></li>
                     <li><a href="/public/faq#precautions">{{ trans('header.faq7') }}</a></li>
                 </ul>
