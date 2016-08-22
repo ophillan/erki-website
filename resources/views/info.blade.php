@@ -49,9 +49,22 @@
                 </li>
                 <li>
                     <span class="text-highlight">{{ trans('info.treatmentoption2') }}</span> {{trans('info.treatmentoption2_text')}}
+                    <ul>
+                        <li>{{ trans('info.treatmentoption2_option1') }}</li>
+                        <li>{{ trans('info.treatmentoption2_option2') }}</li>
+                        <li>{{ trans('info.treatmentoption2_option3') }}</li>
+                        <li>{{ trans('info.treatmentoption2_option4') }}</li>
+                        <li>{{ trans('info.treatmentoption2_option5') }}</li>
+                    </ul>
                 </li>
                 <li>
                     <span class="text-highlight">{{ trans('info.treatmentoption3') }}</span> {{trans('info.treatmentoption3_text')}}
+                    <ul>
+                        <li>{{ trans('info.treatmentoption3_option1') }}</li>
+                        <li>{{ trans('info.treatmentoption3_option2') }}</li>
+                        <li>{{ trans('info.treatmentoption3_option3') }}</li>
+                        <li>{{ trans('info.treatmentoption3_option4') }}</li>
+                    </ul>
                 </li>
             </ul>
         </div>

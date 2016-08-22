@@ -17,7 +17,7 @@
                 <picture>
                     <source media="(max-width: 768px)" srcset="/img/landing/osteo_{{ App::getLocale() }}.png">
                     <source media="(min-width: 769px) and (max-width: 1400px)" srcset="/img/landing/osteo-small_{{ App::getLocale() }}.png">
-                    <source media="(min-width: 1201px)" srcset="/img/landing/osteo_{{ App::getLocale() }}.png">
+                    <source media="(min-width: 1401px)" srcset="/img/landing/osteo_{{ App::getLocale() }}.png">
                     <img id="picture1" class="img-responsive" src="/img/landing/osteo.png_{{ App::getLocale() }}" alt="Osteoartriit">
                 </picture>
             </div>
