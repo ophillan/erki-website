@@ -9,7 +9,7 @@ return [
     'homepage' => 'avaleht',
 
     /** Disease */
-    'disease' => 'osteoartriit',
+    'disease' => 'Osteoartriit',
     'whatis' => 'Mis on osteoartriit?',
     'symptoms' => 'Sümptomid',
     'riskfactors' => 'Riskifaktorid',

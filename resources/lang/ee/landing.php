@@ -1,6 +1,8 @@
 <?php
 
 return [
+    'title' => 'Kiire ravi liigesvalule!',
+
     'whatis' => 'Mis on osteoartriit?',
     'whatistext' => 'Osteoartriit on haigus, mille käigus hävineb liigeskõhr. Haigus algab tavaliselt pärast 40. eluaastat ning üldjuhul toimub haiguse progresseerumine. Osteoartriit põhjustab valu ning liigesliikuvus halveneb, seetõttu on ravi eesmärgiks elukvaliteedi parandamine - valu vähendamine ning liigesliikuvuse suurendamine. Ravivõimalusi on mitmeid: taastusravi, operatsioon, erinevad ravimid.',
 

@@ -1,6 +1,8 @@
 <?php
 
 return [
+    'title' => 'Osteoartriit',
+
     'whatcauses' => 'Mis on osteoartriit?',
     'whatcausestext1' => 'Osteoartriit on kõige sagedamini esinev liigest kahjustav haigus. Osteoartriiti iseloomustab liigesekõhre degeneratsioon ehk hävinemine. Liigeskõhre destruktsiooni tõttu tekib luude omavaheline hõõrdumine, mis põhjustab valu, jäikust ning väheneb liigesliikuvus. Osteoartriit ei kahjusta ainult kõhre, vaid haarab kogu liigest tervikuna. Haiguse puhul esinevad põletikulised episoodid.',
     'whatcausestext2' => 'Haiguse algus on tavaliselt aeglane ning seetõttu märkamatu. Enamasti tekib valu liikumisel, millega kaasneb krigin, kuid rahuolekus valu kaob. Iseloomult on valu tuim ning tugevneb päeva teises pooles, hommikuti on tunne parem.  Haiguse progresseerumisel on valud püsivamad.',

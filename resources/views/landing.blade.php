@@ -1,5 +1,7 @@
 @extends('layouts.layout')
 
+@section('title', trans('landing.title'))
+
 @section('content')
 
     <!-- First block -->

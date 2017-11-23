@@ -1,5 +1,7 @@
 @extends('layouts.layout')
 
+@section('title', trans('faq.title'))
+
 @section('content')
 
     <div class="row" id="contentrow">

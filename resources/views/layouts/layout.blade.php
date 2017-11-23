@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en" xml:lang="en">
 <head>
-    <title>ViscoPlus</title>
+    <title>ViscoPlus - @yield('title')</title>
     <link rel="shortcut icon" type="image/x-icon" href="/public/img/logos/favicon.png"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="description" content="{{ trans('header.description') }}"/>
-    <meta charset="UTF-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
     <!-- Bootstrap -->
     <link rel="stylesheet" type="text/css"
           href="https://netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
 
     <!-- Roboto -->
-    <link href='https://fonts.googleapis.com/css?family=Roboto&subset=latin,cyrillic' rel='stylesheet' type='text/css'/>
+    <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Roboto&subset=latin,cyrillic'/>
 
     <!-- Custom CSS -->
     <link rel="stylesheet" type="text/css" href="/css/all.css"/>

@@ -1,6 +1,8 @@
 <?php
 
 return [
+    'title' => 'KKK',
+
     'doesithurt' => 'Kas ViscoPlus’i süstimine on valus?',
     'doesithurttext' => 'ViscoPlus ravimi süstimisel võib esineda minimaalne torkevalu, nagu tavalise süsti korralgi. Kui liigeses esineb turse, siis tehakse esmalt valuvaigistav süst ning seejärel tehakse süst Viscoplus ravimiga.',
     

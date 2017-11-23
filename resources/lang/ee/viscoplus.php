@@ -1,6 +1,8 @@
 <?php
 
 return [
+    'title' => 'Toote tutvustus',
+
     'whatisvp' => 'Mis on ViscoPlus?',
     'whatistext1' => 'ViscoPlus on Saksa firma Biomedical\'i toodetud hüaluroonhapet sisaldav preparaat, mida kasutatakse osteoartriidi ravis ning millel on viskoelastsed omadused.  Antud ravimit manustatakse süstena haigesse liigesesse, mille tagajärjel paraneb liigesliikuvus ning valu väheneb oluliselt. Enamasti hakkab ViscoPlus toimima  ca nädala möödudes, kuid on patsiente, kellel leevenev valu juba paar päeva pärast süste tegemist.',
     'whatistext2' => 'ViscoPlus’il on kaks erinevat toodet, ViscoPlus 1% ning ViscoPlus Gel 2,5%. Mõlemad tooted leevendavad osteoartriidi sümptomeid, kuid Viscoplus Gel 2,5% puhul on võimalik sama raviefekt saavutada vaid ühe süstiga - samas kui suurte liigeste puhul (põlv, puus) on ViscoPlus 1% raviprotseduuri parima tulemuse saavutamiseks vaja korrata vähemalt 3 korda (ca nädalaste vahedega).',
