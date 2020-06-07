@@ -1,3 +1,10 @@
-# Website for a pharmaceutical company.
+# ViscoPlus
 
-Clearly still in the works.
+## Requirements
+* PHP ^7.2.5
+
+## Building
+`npm install` -> `composer install`
+
+## Running
+`php artisan serve`
