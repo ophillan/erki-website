@@ -1,13 +1,15 @@
 <?php
 
+use Illuminate\Support\Facades\Route;
+
 Route::group(['middleware' => ['web']], function () {
 
     /** Page routing */
-    Route::get('/', 'PageController@landing');
-    Route::get('/info', 'PageController@info');
-    Route::get('/viscoplus', 'PageController@viscoplus');
-    Route::get('/faq', 'PageController@faq');
+    Route::get('/')->uses('PageController@landing')->name('/');
+    Route::get('/info')->uses('PageController@info')->name('info');
+    Route::get('/viscoplus')->uses('PageController@viscoplus')->name('viscoplus');
+    Route::get('/faq')->uses('PageController@faq')->name('faq');
 
     /** Language routing */
-    Route::get('lang/{lang}', 'LanguageController@switchLang');
+    Route::get('lang/{lang}')->uses('LanguageController@switchLang')->name('lang');
 });
