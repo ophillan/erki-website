@@ -5,7 +5,7 @@
                 data-target="#navHeaderCollapse" aria-expanded="false">MENÜÜ
         </button>
 
-        <a class="img-responsive" id="main-logo" href="/"></a>
+        <a class="img-responsive" id="main-logo" href="{{route('/')}}"></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -13,12 +13,12 @@
         <ul class="nav navbar-nav">
 
             <!-- Homepage -->
-            <li><a class="{{ Route::getCurrentRoute()->uri()=='/' ? 'active-link' : '' }}"
+            <li><a class="{{Request::routeIs('/') ? 'active-link' : ''}}"
                    href="{{route('/')}}">{{ strtoupper(trans('header.homepage')) }}</a></li>
 
             <!-- Osteoarthritis -->
             <li class="dropdown">
-                <a class="{{ Route::getCurrentRoute()->uri()=='info' ? 'active-link' : '' }}"
+                <a class="{{Request::routeIs('info') ? 'active-link' : ''}}"
                    href="{{route('info')}}" role="button"
                    aria-haspopup="true"
                    aria-expanded="false">{{ strtoupper(trans('header.disease')) }}<span
@@ -32,12 +32,12 @@
             </li>
 
             <!-- Viscoplus -->
-            <li><a class="{{ Route::getCurrentRoute()->uri()=='viscoplus' ? 'active-link' : '' }}"
+            <li><a class="{{Request::routeIs('viscoplus') ? 'active-link' : ''}}"
                    href="{{route('viscoplus')}}">VISCOPLUS</a></li>
 
             <!-- FAQ -->
             <li class="dropdown">
-                <a class="{{ Route::getCurrentRoute()->uri()=='faq' ? 'active-link' : '' }}"
+                <a class="{{Request::routeIs('faq') ? 'active-link' : ''}}"
                    href="{{route('faq')}}" role="button"
                    aria-haspopup="true"
                    aria-expanded="false">{{ strtoupper(trans('header.faq')) }}<span

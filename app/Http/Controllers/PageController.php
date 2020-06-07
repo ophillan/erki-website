@@ -2,8 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Requests;
-
 class PageController extends Controller
 {
     public function landing()
