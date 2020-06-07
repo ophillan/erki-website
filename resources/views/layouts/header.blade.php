@@ -13,12 +13,12 @@
         <ul class="nav navbar-nav">
 
             <!-- Homepage -->
-            <li><a class="{{ Route::getCurrentRoute()->getPath()=='/' ? 'active-link' : '' }}"
+            <li><a class="{{ Route::getCurrentRoute()->uri()=='/' ? 'active-link' : '' }}"
                    href="/">{{ strtoupper(trans('header.homepage')) }}</a></li>
 
             <!-- Osteoarthritis -->
             <li class="dropdown">
-                <a class="{{ Route::getCurrentRoute()->getPath()=='public/info' ? 'active-link' : '' }}"
+                <a class="{{ Route::getCurrentRoute()->uri()=='public/info' ? 'active-link' : '' }}"
                    href="/public/info" role="button"
                    aria-haspopup="true"
                    aria-expanded="false">{{ strtoupper(trans('header.disease')) }}<span
@@ -32,12 +32,12 @@
             </li>
 
             <!-- Viscoplus -->
-            <li><a class="{{ Route::getCurrentRoute()->getPath()=='public/viscoplus' ? 'active-link' : '' }}"
+            <li><a class="{{ Route::getCurrentRoute()->uri()=='public/viscoplus' ? 'active-link' : '' }}"
                    href="/public/viscoplus">VISCOPLUS</a></li>
 
             <!-- FAQ -->
             <li class="dropdown">
-                <a class="{{ Route::getCurrentRoute()->getPath()=='public/faq' ? 'active-link' : '' }}"
+                <a class="{{ Route::getCurrentRoute()->uri()=='public/faq' ? 'active-link' : '' }}"
                    href="/public/faq" role="button"
                    aria-haspopup="true"
                    aria-expanded="false">{{ strtoupper(trans('header.faq')) }}<span

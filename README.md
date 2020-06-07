@@ -1,7 +1,7 @@
 # ViscoPlus
 
 ## Requirements
-* PHP >= 5.5.9
+* PHP ^7.2.5
 
 ## Building
 `npm install` -> `composer install`
